@@ -1,0 +1,7 @@
+# 攻击方提交示例配置
+# 指定本提交使用的攻击方法名（见 safellm/attacks/ 注册表）。
+attack_method: "pair"
+# 攻击方公开推理参数
+max_attack_queries: 20
+max_attack_turns: 8
+# 若攻击需要辅助 LLM，沿用后端 openai 配置（attack_model）。

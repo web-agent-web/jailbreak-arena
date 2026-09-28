@@ -1,0 +1,4 @@
+# 防御方提交示例配置
+# 指定本提交使用的防御算法名（见 safellm/defenses/ 注册表）。
+defense_method: "self_exam"
+# 防御方可叠加多个阶段的防御（按需）；此处以单个为例。
